@@ -6,7 +6,7 @@ body{
 .top-container{
     background-color:#adce74;
     text-align: left;
-    height: auto;
+    height: 100%;
     padding: 50px;
     padding-bottom: 0px;
     width:auto;
@@ -30,10 +30,24 @@ body{
 
 .mountain-img{
     position: relative;
-    left: 20%;
+    left:400px ;
     bottom: 0%;
-    right: 200px;
-    width: 900px;
+    right: 50px;
+    width: 600px;
+    display: inline-block;
+}
+
+.cloud-img-top {
+    position: relative;
+    left: 50%;
+    display: inline-block;
+}
+
+.cloud-img-bottom {
+    position: relative;
+    left: 800px;
+    bottom: 500px;
+    display: inline-block;
 }
 /**********************css ids**********************/
 #head1{
@@ -48,13 +62,3 @@ body{
     left: 60px;
 }
 
-#cloud-img-top{
-    position: relative;
-    left: 50%;
-}
-
-#cloud-img-bottom{
-    position: relative;
-    left: 40%;
-    bottom:200px;
-}
