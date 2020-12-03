@@ -3,21 +3,34 @@ body{
 }
 
 /********************css classes*************************/
+.container1 {
+    height: 800px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
 .top-container{
+    position: absolute;
+    bottom: 0px;
     background-color:#adce74;
     text-align: left;
-    height: 100%;
-    padding: 50px;
-    padding-bottom: 0px;
-    width:auto;
     color: #5c6e91;
-    background-origin: padding-box;
+    height:800px;
+    padding-bottom: 0px;
+    width:100%;
+}
+
+.container2{
+    height: 100%;
+    position: relative;
 }
 
 .middle-container{
+    position: absolute;
     background-color: #98acf8;
-    margin-top: 0px;
-    height: 700px;
+    height: 600px;
     width:100%;
     
 }
@@ -29,11 +42,11 @@ body{
 }
 
 .mountain-img{
-    position: relative;
-    left:400px ;
-    bottom: 0%;
-    right: 50px;
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
     width: 600px;
+    height: 400px;
     display: inline-block;
 }
 
