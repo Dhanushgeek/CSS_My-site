@@ -1,13 +1,15 @@
 body{
     margin: 0%;
     text-align: center;
+    font-family: verdana,sans-serif;
 }
 
 
 /********************css classes*************************/
 .top-container{
-    background-color:#adce74;
-    height: 800px;
+     background-color:#adce74;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container{
@@ -23,6 +25,17 @@ body{
     background-color: #da9ff9;
 }
 
+.cloud-img-top{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.cloud-img-bottom{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
 
 /**********************css ids**********************/
 #head1{
