@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+}
+
+/********************css classes*************************/
+.top-container{
+    background-color:#adce74;
+    text-align: left;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 0px;
+    width:auto;
+    color: #5c6e91;
+    background-origin: padding-box;
+}
+
+.middle-container{
+    background-color: #98acf8;
+    margin-top: 0px;
+    height: 700px;
+    width:100%;
+    
+}
+
+.bottom-container{
+    height: 800px;
+    width:100%;
+    background-color: #da9ff9;
+}
+
+.mountain-img{
+    position: relative;
+    left: 20%;
+    bottom: 0%;
+    right: 200px;
+    width: 900px;
+}
+/**********************css ids**********************/
+#head1{
+    font-size: 120px;
+    position: relative;
+    left: 50px;
+}
+
+#para1{
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+}
+
+#cloud-img-top{
+    position: relative;
+    left: 50%;
+}
+
+#cloud-img-bottom{
+    position: relative;
+    left: 40%;
+    bottom:200px;
+}
