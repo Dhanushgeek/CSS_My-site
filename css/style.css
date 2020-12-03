@@ -1,34 +1,16 @@
 body{
     margin: 0%;
+    text-align: center;
 }
+
 
 /********************css classes*************************/
-.container1 {
-    height: 800px;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-}
-
 .top-container{
-    position: absolute;
-    bottom: 0px;
     background-color:#adce74;
-    text-align: left;
-    color: #5c6e91;
-    height:800px;
-    padding-bottom: 0px;
-    width:100%;
-}
-
-.container2{
-    height: 100%;
-    position: relative;
+    height: 800px;
 }
 
 .middle-container{
-    position: absolute;
     background-color: #98acf8;
     height: 600px;
     width:100%;
@@ -41,37 +23,18 @@ body{
     background-color: #da9ff9;
 }
 
-.mountain-img{
-    position: absolute;
-    right: 60px;
-    bottom: 0px;
-    width: 600px;
-    height: 400px;
-    display: inline-block;
-}
 
-.cloud-img-top {
-    position: relative;
-    left: 50%;
-    display: inline-block;
-}
-
-.cloud-img-bottom {
-    position: relative;
-    left: 800px;
-    bottom: 500px;
-    display: inline-block;
-}
 /**********************css ids**********************/
 #head1{
-    font-size: 120px;
-    position: relative;
-    left: 50px;
+    color: #0e49b5;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    font-size: 70px;
 }
 
 #para1{
-    font-size: 30px;
-    position: relative;
-    left: 60px;
+    font-size: 20px;
+    width: 30%;
+    margin: 0 auto 0 auto;
 }
 
