@@ -9,11 +9,12 @@ h1{
     width: 30%;
     margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 70px;
+    font-size: 100px;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3{
