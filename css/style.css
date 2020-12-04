@@ -77,14 +77,14 @@ hr{
 }
 
 .profile{
-    width: 50%;
+    width: 60%;
     position: relative;
     top: 5px;
     margin: 0 auto 0 auto;
 }
 
 .skill-row{
-    width: 50%;
+    width: 60%;
     position: relative;
     top: 5px;
     margin: 0 auto 0 auto;
@@ -93,6 +93,11 @@ hr{
 .skill-img{
     height: 200px;
     width: 200px;
+}
+
+.contact-me{
+    width: 60%;
+    margin: 0 auto 0 auto;
 }
 /**********************css ids**********************/
 #para1 {
