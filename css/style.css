@@ -51,14 +51,14 @@ hr{
 }
 
 .cloud-img-top {
-    width: 10%;
+    width: 15%;
     position: absolute;
     right: 10%;
     top: 50px;
 }
 
 .cloud-img-bottom {
-    width: 10%;
+    width: 15%;
     position: absolute;
     left: 10%;
     bottom: 300px;
