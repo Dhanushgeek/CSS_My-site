@@ -1,61 +1,66 @@
-body{
+body {
     margin: 0%;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
-h1{
-    color: #0e49b5;
+h1 {
+    color: #66BFBF;
     width: 30%;
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 100px;
+    font-size: 90px;
 }
 
-h2{
+h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 
-h3{
+h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
+
 /********************css classes*************************/
-.top-container{
-     background-color:#adce74;
+.top-container {
+    background-color: #d0e8f2;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
     background-color: #98acf8;
     height: 600px;
-    width:100%;
-    
+    width: 100%;
+
 }
 
-.bottom-container{
+.bottom-container {
+    color: #11999E;
     height: 800px;
-    width:100%;
+    width: 100%;
     background-color: #da9ff9;
 }
 
-.cloud-img-top{
+.cloud-img-top {
     position: absolute;
     right: 300px;
     top: 50px;
 }
 
-.cloud-img-bottom{
+.cloud-img-bottom {
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
 
 /**********************css ids**********************/
-#para1{
+#para1 {
+    color: #66BFBF;
     font-size: 20px;
+    font-weight: normal;
     width: 30%;
     margin: 0 auto 0 auto;
 }
-
