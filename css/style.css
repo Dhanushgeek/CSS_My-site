@@ -98,8 +98,8 @@ hr{
 
 .skill-img2 {
     width: 20%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 10px;
 }
 
 .contact-me{
