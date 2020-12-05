@@ -27,7 +27,7 @@ hr{
     border: dotted #eaf6f6 10px;
     border-bottom: none;
     width: 10%;
-    margin: 0 auto 0 auto;
+    margin: 10px auto 100px auto;
 }
 
 p{
@@ -91,8 +91,7 @@ p{
 
 .skill-row{
     width: 60%;
-    margin: 0 auto 0 auto;
-    padding-bottom: 100px;
+    margin: 0 auto 80px auto;
     text-align: left;
 }
 .skill-img1{
@@ -112,6 +111,45 @@ p{
     position: relative;
     top: 10px;
     margin: 0 auto 0 auto;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 15px;
+    -webkit-box-shadow: -1px 1px 20px 0 #000000;
+    -moz-box-shadow: -1px 1px 20px 0 #000000;
+    box-shadow: -1px 1px 20px 0 #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid #337FED 0;
+    background: #30AECB;
+    background-image: -webkit-linear-gradient(top, #30AECB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30AECB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30AECB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30AECB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30AECB, #2BC4AD);
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    text-decoration: none;
 }
 
 /**********************css ids**********************/
