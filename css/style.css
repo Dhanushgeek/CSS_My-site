@@ -39,6 +39,11 @@ a{
     font-family:'montserrat', 'sans-serif';
     font-weight: bold;
     margin: auto 20px auto 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white ;
 }
 /********************css classes*************************/
 .top-container {
@@ -159,6 +164,10 @@ a{
     text-decoration: none;
 }
 
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
 /**********************css ids**********************/
 #para1 {
     color: #fff3e2;
